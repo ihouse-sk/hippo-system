@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hippo>
+	<driver>
+		<log_verbose value="1"/>
+		<ND_command value="0"/>
+		<AES_enabled value="0"/>
+		<AES_key_time value="1000"/>
+		<AES_init value="0"/>
+	</driver>
+	<xbee_socket value="/home/hippo/system/hp_go/socket/xbee_socket"/>
+	<cls_socket value="/home/hippo/system/hp_go/socket/cls_socket"/>
+	<db_name value="EMPTY"/>
+	<meteo_stanica value="no"/>
+	<port value="44444"/>
+	<logging txt="all" database="all" system_ident=""/>
+	<simulator value="yes"/>
+	<ip address="127.0.0.1" web_port="22080" socket_port="44444"/>
+	<hbxs>
+	</hbxs>
+	<services>
+		<service id="alarms" gui="alarm"/>
+		<service id="scenarias" gui="scen"/>
+	</services>
+	<rooms>
+	</rooms>
+</hippo>

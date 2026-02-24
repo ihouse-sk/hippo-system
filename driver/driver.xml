@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<driver>
+	<xbee_socket value="/home/user/working_folder/hippo/system/hp_go/socket/xbee_socket"/>
+	<cls_socket value="/home/user/working_folder/hippo/system/hp_go/socket/cls_socket"/>
+	<log_verbose value="1"/>
+	<ND_command value="0"/>
+	<AES_enabled value="0"/>
+	<AES_key_time value="0"/>
+	<AES_init value="0"/>
+	<xbee_count value="10"/>
+	<xbee>
+		<id value="1"/>
+		<mac value="00 13 a2 00 aa bb cc d0 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="2"/>
+		<mac value="00 13 a2 00 aa bb cc d1 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="3"/>
+		<mac value="00 13 a2 00 aa bb cc d2 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="4"/>
+		<mac value="00 13 a2 00 aa bb cc d3 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="5"/>
+		<mac value="00 13 a2 00 aa bb cc d4 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="6"/>
+		<mac value="00 13 a2 00 aa bb cc d5 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="7"/>
+		<mac value="00 13 a2 00 aa bb cc d6 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="8"/>
+		<mac value="00 13 a2 00 aa bb cc d7 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="9"/>
+		<mac value="00 13 a2 00 aa bb cc d8 ff fe"/>
+	</xbee>
+	<xbee>
+		<id value="10"/>
+		<mac value="00 13 a2 00 40 a6 bd da ff fe"/>
+	</xbee>
+</driver>

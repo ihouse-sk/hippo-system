@@ -1,0 +1,18 @@
+cmake_minimum_required (VERSION 3.0)
+
+#SET(GCC_COVERAGE_COMPILE_FLAGS "-Wall -g")
+if(NOT MSVC)
+	add_compile_options(-std=c++11 -g -Wall -Wextra -Wsign-conversion)
+	set(GCC_LIBRARY "-lpthread -lboost_thread -lboost_filesystem -lboost_system -lmysqlclient -lrt -ljsoncpp")
+else()
+	add_compile_options(/W4)
+endif()
+
+project(project name)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
+add_subdirectory(../hp_lib hp_lib) # dolezite - pridanie kniznic do aktualneho projektu
+
+add_executable(name src/main.cpp)
+target_link_libraries(name ${GCC_LIBRARY} hp_lib)
